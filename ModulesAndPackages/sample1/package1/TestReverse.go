@@ -8,11 +8,12 @@ import (
 
 var RevString string = "PrintMeIfUCan"
 
-func reverseString() {
+func ReverseString() string {
 	str := " A sample string to reverse"
 
 	rev := reverse.String(str)
 	RevString = rev
 
 	fmt.Println("The reverse of \n", str, "\n is\n", rev)
+	return rev
 }
